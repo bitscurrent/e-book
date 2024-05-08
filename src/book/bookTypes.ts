@@ -1,6 +1,10 @@
 export interface Book {
-  book: string;
   author: string;
   _id: string;
-  cover: string;
+  coverImage: string;
+  title: string;
+  file: string;
+  createdAt: Date;
+  updatedAt: Date;
+  genre: string;
 }
